@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+}
+
+body{
+    font-family: "Merriweather", serif;
+}
+
+header {
+    position: relative;
+}
+
+header img {
+    width: 400px;
+    /* height: 100%;  */
+}
+
+.container-img{
+    position: absolute;
+    z-index: -1;
+    height: 80px;
+    overflow: hidden;
+    width: 100%;
+    background-image: linear-gradient(-45deg, #834a2a, #f8e3d7, #e4baa1);
+    background-attachment: fixed;
+}
+
+.container{
+    height: 80px;
+    margin: 0;
+    display: flex;
+    align-items: relative;
+    justify-content: space-around;
+}
+
+.esquerda{
+    height: 100;
+    display: flex;
+    align-items: center;
+}
+
+.direita{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.direita nav a{
+    text-decoration: none;
+    color: #5a392a;
+}
+
+.direita nav a:hover{
+    color: #24140d;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px #00000030 ;
+    border-bottom: 2px solid #24140d;
+}
+
+.direita nav button{
+    border: none;
+    background-color: #00000000;
+    color: #5a392a;
+    font-size: 16px;
+}
+
+.direita nav button:hover{
+    color: #24140d;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px #00000030 ;
+    border-bottom: 2px solid #24140d;
+}
+
+h1{
+    font-family: "Matemasie", sans-serif;
+    text-shadow: 2px 2px 1px #fff;
+    /* background-color: #ffffff60; */
+    border-radius: 50%;
+    padding: 4px;
+}
+
+
+.logo, .sociais{
+    width: 80%;
+}
+
+.menu{
+    display: flex;
+    gap: 8px;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
